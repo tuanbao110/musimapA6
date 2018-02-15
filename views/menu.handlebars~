@@ -35,12 +35,17 @@
                     </div>
                 </a>
                 <a href="index">
+                    <div>
+                        Home
+                    </div>
+                </a>
+                <a href="index">
                     <img src="./img/menuclose menu.png" class="close-menu"/>
                 </a>
             </div>
         </div>
+        <script src="js/jquery-1.11.0.js"></script>
         <script src="js/bootstrap.js"></script>
-        <script src="js/hci-friends.js"></script>
     </body>
 </html>
 
