@@ -11,7 +11,7 @@
     <body style="margin: 0;">
         <div class="artist-screen">
             <div>
-                <div class="artist-header">
+                <div>
                     <div><a href="../menu"><h4>Menu</h4></a></div>
                     <div><a href="../searchpage"><h4>Search Page</h4></a></div>
                 </div>
@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div>
-                    <div><a href="../library"><h4>Add to Library</h4></a></div>
+                    <div><a href="../add/{{name}}"><h4>Add to Library</h4></a></div>
                     <div><a href="../likeThis"><h4>More Like This</h4></a></div>
                 </div>
             </div>

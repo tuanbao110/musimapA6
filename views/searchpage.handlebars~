@@ -33,13 +33,13 @@
             </div>
 
             <form action="results">
-                Artist: <input type="text" name="search" value="Search Here"><br>
+                Artist: <input type="text" name="search" placeholder="Search Here"><br>
                 <input type="submit" value="Search">
             </form>
            
         </div>
+        <script src="js/jquery-1.11.0.js"></script>
         <script src="js/bootstrap.js"></script>
-        <script src="js/hci-friends.js"></script>
     </body>
 </html>
 

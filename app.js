@@ -53,7 +53,7 @@ app.get('/help', help.view);
 app.get('/', index.view);
 app.get('/index', index.view);
 app.get('/library', library.view);
-app.get('/likeThis', likeThis.view);
+app.get('/likeThis/:name', likeThis.viewFromArtist);
 app.get('/menu', menu.view);
 app.get('/results', results.view);
 app.get('/search', search.view);
