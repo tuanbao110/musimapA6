@@ -20,7 +20,7 @@ var search = require('./routes/search');
 var searchpage = require('./routes/searchpage');
 var settings = require('./routes/settings');
 var social = require('./routes/social');
-
+var login = require('./routes/login');
 // Example route
 // var user = require('./routes/user');
 
@@ -50,7 +50,7 @@ app.get('/artistscreen', artistscreen.view);
 app.get('/artistscreen/:name', artistscreen.viewName);
 app.get('/exampleArtist', exampleArtist.view);
 app.get('/help', help.view);
-app.get('/', index.view);
+app.get('/', login.view);
 app.get('/index', index.view);
 app.get('/library', library.view);
 app.get('/likeThis/:name', likeThis.viewFromArtist);
