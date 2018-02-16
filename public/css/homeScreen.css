@@ -92,11 +92,12 @@
   height: 100%;
   overflow: hidden;
   border: 2px solid black;
+  position: relative;
 }
 #musimap {
-  display: block;
-  margin: auto;
-  width: 400%;
+  width: 300%;
+  right: 70%;
+  bottom: 150%;
 }
 .map .artist-clickable .artist-name {
   top                 : 268px;
